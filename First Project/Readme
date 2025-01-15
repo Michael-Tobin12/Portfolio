@@ -1,1 +1,3 @@
-readme
+The task involves creating a program named task_manager.py for a small business to manage tasks assigned to team members. The program will interact with two text files, user.txt and tasks.txt, to handle user credentials and task details, respectively. Users can log in, and based on their credentials, perform actions like registering new users (admin only), adding tasks, and viewing tasks. Admins also have an additional option to display statistics such as the total number of tasks and users.
+The only feedback I received to improve this submission was to include a blank line at the end of the task.
+This was the first project quite early on in the course.
