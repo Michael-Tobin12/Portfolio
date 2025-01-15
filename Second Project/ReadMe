@@ -1,1 +1,8 @@
-
+Task Outline
+This task involves creating a program for a bookstore clerk that allows them to manage books in a database. The program should enable the clerk to add new books, update book information, delete books, and search for specific books. You'll need to create a database named ebookstore with a table called book, and populate it with initial book data. The program will present a menu with options to enter, update, delete, or search for books, and perform the selected function accordingly, demonstrating concepts from the recent module (SQLite).
+Feedback
+Accepting spaces or tabs as valid book titles can be prevented with the str.isspace() method.
+Dependency injection in your functions requires both Connection and Cursor objects, even though they are defined globally. Instead of using global variables, inject the db object and access the cursor method from within functions to reduce dependencies.
+Consider writing a decorator function for committing database changes after function calls.
+Consider not operator but be mindful of falsy values.
+For docstrings, use a colon to separate parameters from descriptions, adhering to the Google docstring style. Consider installing the AutoDocstring Extension for easier docstring writing. The Google docstring style uses "Args:", while NumPy style uses "Parameters". Your solution combines different docstring styles.
