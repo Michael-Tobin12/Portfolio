@@ -1,1 +1,8 @@
-
+Task
+The task is to build an expense and budget tracker app using SQLite. The program will allow users to manage expense and income categories, track spending and income, and calculate their budget based on provided data. Users can add, update, delete, and view expenses and income, set and view budgets for categories, and track progress towards financial goals. The app will use the SQLite library to connect to a database, where it will create tables, insert data, retrieve data using SQL queries, and close the connection. The user interface will present a menu with options for the various functions, and users will select the desired action to perform. The implementation of these functions is left to the developer.
+Feedback
+Avoid including user interaction code (input/output) inside functions and methods.
+Handling input/output within functions reduces code reusability for different applications.
+Functions should take user input as arguments and return values for output.
+This approach ensures operations can be performed regardless of input/output methods.
+Consider breaking up code files by defining classes, functions, and input/output handling in separate files.
